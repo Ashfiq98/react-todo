@@ -32,7 +32,7 @@ Make sure you have the following software installed:
 2. Navigate to the project directory:
 
 ```bash
-cd react-todo-app
+cd react-todo
 ```
 3. Install dependencies: 
   - Run the following command to install the required packages:
