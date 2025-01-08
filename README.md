@@ -46,6 +46,23 @@ npm install
 ```bash
 npm start
 ```
+# if you get any error :
+ - like this - (error:0308010C:digital envelope routines::unsupported)
+ please copy and paste with your `scripts` inside `package.json` below scripts:
+ * For windows
+ ```bash
+ "scripts": {
+        "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+        "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+        "test": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts test"}
+ ```
+ * For Linux/MacOs
+ ```bash
+  "scripts": {
+        "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+        "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+        "test": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts test"}
+ ```
 ## This will open the app in your default web browser at http://localhost:3000.
 
 # Usage
