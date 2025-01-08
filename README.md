@@ -27,7 +27,7 @@ Make sure you have the following software installed:
    Open your terminal and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-todo-app.git
+   git clone https://github.com/Ashfiq98/react-todo.git
    ```
 2. Navigate to the project directory:
 
